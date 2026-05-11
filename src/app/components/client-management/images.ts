@@ -1,0 +1,8 @@
+export const userAvatar = '/images/avatar7.jpeg'
+export const avatar1 = '/images/avatar1.png'
+export const avatar2 = '/images/avatar2.png'
+export const avatar3 = '/images/avatar3.png'
+export const avatar4 = '/images/avatar4.png'
+export const businessAvatar = '/images/businessAvatar.png'
+export const healthAvatar = '/images/healthAvatar.png'
+export const lifeAvatar = '/images/lifeAvatar.png'

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "WebFetch(domain:www.figma.com)",
+      "WebFetch(domain:embed.figma.com)",
+      "Bash(npx tsc *)",
+      "Bash(node -e \"const p=require\\('./package.json'\\); console.log\\('@mui/material:', p.dependencies['@mui/material']\\)\")",
+      "Bash(python3 -)",
+      "Bash(node -)",
+      "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const p=JSON.parse\\(d\\); console.log\\(JSON.stringify\\(p.exports, null, 2\\)\\)\")",
+      "Bash(node -e \"const p=require\\('./node_modules/@quantum/design-tokens/package.json'\\); console.log\\(JSON.stringify\\(p.exports,null,2\\)\\); console.log\\('files:', p.files\\)\")",
+      "Bash(node -e \"const t=require\\('./node_modules/@quantum/design-tokens/dist/index.js'\\); console.log\\(JSON.stringify\\(Object.keys\\(t\\).slice\\(0,5\\)\\)\\); const c=t.tokens||t; console.log\\(JSON.stringify\\(Object.keys\\(c\\).slice\\(0,5\\)\\)\\)\")",
+      "Bash(node -e \"const {tokens}=require\\('./node_modules/@quantum/design-tokens/dist/index.js'\\); console.log\\(JSON.stringify\\(Object.keys\\(tokens.colors\\)\\)\\); console.log\\(JSON.stringify\\(Object.keys\\(tokens.colors.black||{}\\)\\)\\)\")",
+      "Bash(node -e \"const {tokens}=require\\('./node_modules/@quantum/design-tokens/dist/index.js'\\); console.log\\('white:', JSON.stringify\\(tokens.colors.white\\)\\); console.log\\('black700:', tokens.colors.black[700]\\); console.log\\('brand500:', tokens.colors.brand[500]\\)\")",
+      "Bash(node -e \"const fs = require\\('fs'\\); const content = fs.readFileSync\\('src/app/components/client-management/ClientManagementOverview.tsx', 'utf8'\\); const updated = content.replace\\('p: 1.25,\\\\n              flexShrink: 0,\\\\n              \\\\\"& svg\\\\\": { width: 22, height: 22 },', 'flexShrink: 0,\\\\n              width: 56,\\\\n              height: 56,\\\\n              \\\\\"& svg\\\\\": { width: 36, height: 36 },'\\); fs.writeFileSync\\('src/app/components/client-management/ClientManagementOverview.tsx', updated\\);\")",
+      "Bash(node -e \"const pkg = require\\('./node_modules/@quantum/react-components/package.json'\\); const exports = pkg.exports; const keys = Object.keys\\(exports || {}\\); console.log\\(keys.filter\\(k => k.toLowerCase\\(\\).includes\\('tab'\\)\\).join\\('\\\\n'\\)\\);\")"
+    ]
+  }
+}
